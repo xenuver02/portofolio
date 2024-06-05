@@ -3,31 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Biograpy</title>
+  <title>Portfolio</title>
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 </head>
 <body>
   <header class="header">
-    <a href="#" class="logo">My Biograpy</a>
+    <a href="#" class="logo">Portfolio</a>
     <i class="bx bx-menu" id="menu-icon"></i>
     <nav class="navbar">
       <a href="#home" class="active">Home</a>
       <a href="#about">About</a>
-
+      <a href="#portfolio">Pendidikan</a>
 
       <a href="#contact">Contact</a>
     </nav>
   </header>
   <section class="home" id="home">
-    <div class="home-content">
+    <div class="home-content">  
       <h3>Heloo, it's me</h3>
-      <h1>Gabid Habib</h1>
-      <h3>And i'm a <span>Siswa SMKN 4 BANDUNG</span></h3>
+      <h1><span id="typed"></span></h1>
+      <h3>Sekolah di <span id="sekolah"></span></h3>
       <p>Hallo aku Gabid umur saya 17 tahun saya sekolah di SMKN 4 BANDUNG</p>
       <div class="sosial-media">
-        <a href="https://www.facebook.com/ghabihabib.ghabihabib?mibextid=ZbWKwL"><i class="bx bxl-facebook"></i></a>
-        <a href="https://instagram.com/klojerhabib?igshid=OGQ5ZDc2ODk2ZA=="><i class="bx bxl-instagram-alt"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=61554305567601&mibextid=ZbWKwL"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/xnuver_ck?igsh=MWlweDE0dW1sejAxZA=="><i class="bx bxl-instagram-alt"></i></a>
+        <a href="https://github.com/xenuver02"><i class="bx bxl-github"></i></a>
       </div>
       <a download="./media/CVPKLgabid.pdf" href="./media/CVPKLgabid.pdf" class="btn">Download CV</a>
     </div>
@@ -41,7 +43,8 @@
     </div>
     <div class="about-content">
       <h2 class="heading">About <span>Me</span></h2>
-      <h3>SISWA SMKN 4 BANDUNG</h3>
+      <br><br>
+      <h3><span id="sekola2"></span></h3>
       <p>Helo, nama saya gabid Habib umur saya 17 tahun saya sekolah di SMKN 4 BANDUNG Saya adalah siswa yang memiliki ketertarikan di bidang Software engineering terutama di bidang UI designer, saat ini saya sedang mencoba memahami (Express, Vue JS)</p>
       <h3>My Quotes</h3>
       <h4>Kudu silih asih silih asah jeung siih asuh !</h4>
@@ -71,59 +74,36 @@
       <a href="#" class="btn">Read More</a>
     </div>
   </section> -->
-  <!-- <section class="portfolio" id="portfolio">
-    <h2 class="heading">Latest <span>Project</span></h2>
+  <section class="portfolio" id="portfolio">
+    <h2 class="heading">Pendidikan <span> Saya</span></h2>
+    <h3>Click !</h3>
     <div class="portfolio-container">       
       <div class="portfolio-box">
-        <img src="..media/project2.png" alt="">
+        <img src="media/sd.jpg" alt="">
         <div class="portfolio-layer">
-          <h4>Web Design</h4>
+          <h4>SDN 145</h4>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, amet.</p>
-          <a href="#"><i class="bx bx-link-external"></i></a>
+          <a href="https://simdik.bandung.go.id/npsn/20244825"><i class="bx bx-link-external"></i></a>
         </div>
       </div>
       <div class="portfolio-box">
-        <img src="media/project2.png" alt="">
+        <img src="media/smp.jpg" alt="">
         <div class="portfolio-layer">
-          <h4>Web Design</h4>
+          <h4>SMPN 31</h4>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, amet.</p>
-          <a href="#"><i class="bx bx-link-external"></i></a>
+          <a href="https://simdik.bandung.go.id/npsn/20219412"><i class="bx bx-link-external"></i></a>
         </div>
       </div>
       <div class="portfolio-box">
-        <img src="media/portfolio5.jpg" alt="">
+        <img src="media/smk.jpg" alt="">
         <div class="portfolio-layer">
-          <h4>Web Design</h4>
+          <h4>SMKN 4</h4>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, amet.</p>
-          <a href="#"><i class="bx bx-link-external"></i></a>
-        </div>
-      </div>
-      <div class="portfolio-box">
-        <img src="media/portfolio5.jpg" alt="">
-        <div class="portfolio-layer">
-          <h4>Web Design</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, amet.</p>
-          <a href="#"><i class="bx bx-link-external"></i></a>
-        </div>
-      </div>
-      <div class="portfolio-box">
-        <img src="media/portfolio5.jpg" alt="">
-        <div class="portfolio-layer">
-          <h4>Web Design</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, amet.</p>
-          <a href="#"><i class="bx bx-link-external"></i></a>
-        </div>
-      </div>
-      <div class="portfolio-box">
-        <img src="media/portfolio5.jpg" alt="">
-        <div class="portfolio-layer">
-          <h4>Web Design</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, amet.</p>
-          <a href="#"><i class="bx bx-link-external"></i></a>
+          <a href="https://smkn4bdg.sch.id/"><i class="bx bx-link-external"></i></a>
         </div>
       </div>
     </div>
-  </section> -->
+  </section>
   <section class="contact" id="contact">
     <h2 class="heading">Contact <span>Me!</span></h2>
   <form action="#">
@@ -148,6 +128,28 @@
   </div>
 </footer>
 <script src="https://unpkg.com/scrollreveal"></script>
-<script src="js/script.js"></script>
+<script src="script.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+      new Typed('#typed', {
+      strings: ["Gabid Habib"],
+      typeSpeed: 100,
+      backSpeed: 50,
+      loop: true
+    });
+    new Typed('#sekolah', {
+    strings: ["SMKN 4 BANDUNG"],
+    typeSpeed: 100,
+    backSpeed: 50,
+    loop: true
+    });
+    new Typed('#sekola2',{
+      strings: ["SMKN 4 BANDUNG"],
+      typeSpeed: 100,
+      backSpeed: 50,
+      loop: true
+    });
+  });
+</script>
 </body>
 </html>
